@@ -1,0 +1,36 @@
+.box-about{
+    display: flex;
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+ .box-about p{
+    font-size: 18px;
+    padding: 15px;
+    line-height: 25px;
+    height: 250px;
+    box-shadow: 3px 6px 7px 1px rgba(247, 185, 16, 0.5);
+ }
+
+ .box-about h1{
+    text-align: center;
+ }
+
+.btnBack, .btnNext{
+    border-radius: 50%;
+    color: rgb(224, 38, 38);
+    border: none;
+    background: yellow;
+}
+
+.img-slader{
+    padding: 20px;
+}
+
+.slide-show{
+    position: relative;
+}
+
+.btn-slide{
+    position: absolute;
+
+}

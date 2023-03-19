@@ -1,0 +1,37 @@
+.box-threeBurger{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  }
+  
+  .card-threeBurger {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+  }
+  
+  .name-threeBurg{
+    text-transform: uppercase;
+    text-align: center;
+    color: #3c2513;
+  }
+  .story-threeBurg{
+    text-align: center;
+    color: #3c2513;
+  }
+  
+  .btnThreeBurg button{
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(226, 5, 5);
+  border: none;
+  font-size: 20px;
+  width: 200px;
+  cursor:pointer;
+  }
+  .btnThreeBurg{
+    display: flex;
+    justify-content: center;
+  }

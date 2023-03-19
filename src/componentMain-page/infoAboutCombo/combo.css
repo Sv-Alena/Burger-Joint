@@ -1,0 +1,30 @@
+.box-infoCombo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+  }
+  .infoSale{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px ;
+    letter-spacing: -1.5px;
+    font-weight: bold;
+    color: #3c2513;
+  }
+  
+  .infoNameCombo{
+    font-family: 'Roboto', sans-serif;
+    color: #3c2513;
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: -1.5px;
+    margin-top: -15px;
+  }
+  
+  .infoComboText{
+    width: 500px;
+    font-size: 18px;
+    color: #6d5038;
+  }
