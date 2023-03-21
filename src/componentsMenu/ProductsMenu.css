@@ -10,9 +10,8 @@ body{
 }
 
 .box-filter{
- 
   border: 2px solid #fbbf4d;
-
+  margin-top: 150px;
 }
 
 .product-card {
@@ -40,6 +39,7 @@ border-radius: 10px;
 
 .box-menu{
 line-height: 15px;
+
 }
 
 

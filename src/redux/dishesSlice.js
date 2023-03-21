@@ -7,7 +7,7 @@ export const dishesSlice = createSlice({
         selectedCategory: "BURGER"
     },
     reducers: {
-      dishesCategory: (state, action) => {
+      filterCategory: (state, action) => {
         state.selectedCategory = action.payload
       }
       },
@@ -15,5 +15,5 @@ export const dishesSlice = createSlice({
 
 
 export const getSelectedCategory = state => state.dishes.selectedCategory;
-export const { dishesCategory } = dishesSlice.actions;
+export const { filterCategory } = dishesSlice.actions;
 export default dishesSlice.reducer

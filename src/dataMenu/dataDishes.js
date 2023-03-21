@@ -1,4 +1,4 @@
-export const dataMenu=[
+export const dataDishes=[
 
     {   id: 1,
         image:'ивашко',
