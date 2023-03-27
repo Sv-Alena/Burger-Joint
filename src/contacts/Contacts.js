@@ -1,7 +1,11 @@
+import './Contacts.css'
+
 function Contacts(){
     return(
-        <div>
-            <h1>Контакты</h1>
+        <div className="box-contact" >
+            <h2>Контакты</h2>
+           
+           
         </div>
     )
 }

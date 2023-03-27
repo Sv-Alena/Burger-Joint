@@ -1,5 +1,5 @@
 export const dataDishes=[
-
+    
     {   id: 1,
         image:'ивашко',
         title:'Ивашко',
@@ -77,6 +77,7 @@ export const dataDishes=[
         price: 169.99,
         category:'СНЭКИ'
     },
+    
     {   id: 11,
         image:'фри-чесночный',
         title:'Картофель фри чесночный',
@@ -138,5 +139,4 @@ export const dataDishes=[
         category:'СОУСЫ'
     }
 
-
-]
+] 

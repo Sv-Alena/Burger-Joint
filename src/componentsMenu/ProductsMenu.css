@@ -7,11 +7,12 @@ body{
 .product-menu{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .box-filter{
   border: 2px solid #fbbf4d;
-  margin-top: 150px;
+  
 }
 
 .product-card {

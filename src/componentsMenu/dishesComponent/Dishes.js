@@ -12,7 +12,7 @@ const Dishes = () =>{
         .filter(dish =>{
             return selectedCategory === dish.category;
         })   
-        .map(dish => <Dish dish={dish}/>)}
+        .map(dish => <Dish key={dish.id} dish={dish}/>)}
         </div>
         
     )
