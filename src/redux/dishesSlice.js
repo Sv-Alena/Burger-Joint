@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit'
 export const dishesSlice = createSlice({
     name: 'dishes',
     initialState: {
-        selectedCategory: "BURGER"
+        selectedCategory: "ВСЕ"
     },
     reducers: {
       filterCategory: (state, action) => {
