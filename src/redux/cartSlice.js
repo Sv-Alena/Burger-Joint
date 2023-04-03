@@ -10,8 +10,9 @@ export const cartSlice = createSlice({
             //const timeId = new Date().getTime()
             state.itemsInCart.push({
                 //id: timeId,
-                image: action.payload.image,
+                
                 dishId: action.payload.dish.id,
+                title: action.payload.title,
                 quantity: action.payload.quantity,
                 totalPrice: action.payload.quantity * action.payload.dish.price
             })

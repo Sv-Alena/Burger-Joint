@@ -9,10 +9,14 @@ const MenuPage = () =>{
     return(<div className="box-menu">
         <div className="box-filter">
 
-            <div  className="category">
+            <div className="menu-page_filter">
             <AllCategory />
+            <div>
+ <Cart/>
             </div>
-            <Cart />
+           
+            </div>
+            
             <BoxCart />
         </div>
         <div>
