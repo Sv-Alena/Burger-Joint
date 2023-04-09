@@ -1,8 +1,8 @@
 const BoxCart = ({boxCart}) =>{
     console.log(boxCart);
     return(
-        <div>
-            {boxCart.title}
+        <div className="box-cart">
+            product
         </div>
     )
 }

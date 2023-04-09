@@ -10,7 +10,7 @@ const Cart = () => {
     
     return(<div>
         <img src='https://icg-extreme.team/wp-content/uploads/2016/07/cart-full-128.png' width='40px' alt='basket' className="basket"/>
-           <span className="cart_total-price"> 2588 ₽</span>
+           <span className="cart_total-price"> 0 ₽</span>
            {itemsInCart.map(boxCart => <BoxCart boxCart={boxCart} key={boxCart.id}/>)}
             
     </div>
