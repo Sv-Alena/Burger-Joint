@@ -15,18 +15,20 @@
   
   .btnTestyBurg{
     background-color: #ffc758;
-  padding: 15px;
+  padding: 12px;
   border: none;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: -1.2px;
   }
   
   .chooseEnjoy{
     font-family: 'Roboto', sans-serif;
     color: #3c2513;
     letter-spacing: -1.5px;
-    font-size: 40px;
+    font-size: 46px;
+    font-weight: bolder;
   
   }
   .slogan{
@@ -34,7 +36,7 @@
     font-family: 'Roboto', sans-serif;
     color: #7e5f46;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: -15px;
   } 
 

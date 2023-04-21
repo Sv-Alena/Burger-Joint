@@ -1,0 +1,82 @@
+.dishes_product-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dish_product-card {
+  text-align: center;
+  width: 270px;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.8s ease-out;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 35px;
+  
+}
+
+.dish_product-card:hover {
+  box-shadow: 2px 5px 10px 2px rgb(148, 147, 147);
+  margin-top: 5px;
+}
+
+.dish_img-menu {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.dish_box-menu {
+  line-height: 15px;
+}
+
+.dish_title {
+  margin-top: 8px;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.dish_about {
+  font-size: 14px;
+  margin-top: -10px;
+  height: 70px;
+}
+.product {
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.about-product {
+  font-size: 14px;
+  margin-top: -10px;
+  height: 70px;
+}
+
+.dish_cart-block {
+  display: flex;
+  justify-content: center;
+}
+
+.quantity-portion_btn {
+  border: #ffc758 solid 1px;
+  background-color: #ffa513;
+  border-radius: 20%;
+  color: white;
+  
+}
+
+.quantity-portion_btn button{
+    border: none;
+    font-size: 25px;
+    margin: 5px 5px;
+    background-color: #ffa513;
+    color: white;
+    text-align: center;
+}
+
+.basket {
+  margin-top: -5px;
+  
+}

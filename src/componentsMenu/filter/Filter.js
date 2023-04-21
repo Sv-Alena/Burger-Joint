@@ -1,18 +1,26 @@
-import { getSelectedCategory, filterCategory } from "../../redux/dishesSlice"
-import { useSelector, useDispatch } from 'react-redux'
+import { getSelectedCategory, filterCategory } from "../../redux/dishesSlice";
+import { useSelector, useDispatch } from "react-redux";
 
+const Filter = ({ category }) => {
+  const dispatch = useDispatch();
+  const selectedCategory = useSelector(getSelectedCategory);
 
-const Filter = ({category}) => {
-    const dispatch = useDispatch()
-    const selectedCategory = useSelector(getSelectedCategory)
-    
-    return(<div>
-        
-        <p onClick={()=> {dispatch(filterCategory(category))}} className={selectedCategory === category ? 'categoryButtonSelected categoryButton' : 'categoryButton'}>{category}</p>
-        
+  return (
+    <div>
+      <p
+        onClick={() => {
+          dispatch(filterCategory(category));
+        }}
+        className={
+          selectedCategory === category
+            ? "filter_categoryButtonSelected filter_categoryButton"
+            : "filter_categoryButton"
+        }
+      >
+        {category}
+      </p>
     </div>
+  );
+};
 
-    )
-}
-
-export default Filter
+export default Filter;

@@ -1,0 +1,28 @@
+.all-category {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+
+}
+
+.filter_categoryButtonSelected {
+  background-color: #ffc758;
+}
+
+.filter_categoryButton:hover {
+  background-color: #ffc758;
+  color: white
+}
+
+.filter_categoryButton {
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  margin-left: 20px;
+  border: 2px solid #ffc758;
+  border-radius: 5px;
+  color: #573208;
+  text-align: center;
+
+}

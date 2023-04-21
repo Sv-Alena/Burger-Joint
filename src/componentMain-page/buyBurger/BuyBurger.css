@@ -14,11 +14,12 @@
   .name-threeBurg{
     text-transform: uppercase;
     text-align: center;
-    color: #3c2513;
+    color: #5f3a20;
+    font-size: 35px;
   }
   .story-threeBurg{
     text-align: center;
-    color: #3c2513;
+    color: #5f3a20;
   }
   
   .btnThreeBurg button{

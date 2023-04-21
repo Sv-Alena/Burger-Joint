@@ -2,12 +2,12 @@ import Dish from "./Dish"
 import { getSelectedCategory } from "../../redux/dishesSlice"
 import { useSelector } from 'react-redux'
 import { dataDishes } from "../../dataMenu/dataDishes"
-
+import "./dishes.css"
 
 const Dishes = () =>{
     const selectedCategory = useSelector(getSelectedCategory)
     
-    return(<div className="product-menu">
+    return(<div className="dishes_product-menu">
         {dataDishes
         .filter(dish =>{
             if(selectedCategory === 'ВСЕ') 

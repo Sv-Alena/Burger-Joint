@@ -1,0 +1,38 @@
+.about-page{
+padding-top: 150px;
+}
+  
+  .about-page_box-slider{
+    display: flex;
+    
+
+ 
+    
+  }
+  
+  .about-page_text h1{
+    text-align: center;
+  }
+  
+  .about-page_text{
+    
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .about-page_text p{
+    font-size: 18px;
+    padding: 15px;
+    line-height: 25px;
+   
+    
+  }
+
+  .about-page_slider{
+   
+    padding: 20px;
+  }
+
+  .about-page_buttom-menu{
+    padding: 10px;
+  }

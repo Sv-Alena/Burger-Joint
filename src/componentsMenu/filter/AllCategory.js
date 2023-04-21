@@ -1,7 +1,8 @@
 import Filter from "./Filter"
+import "./filter.css"
 
 function AllCategory(){
-    return(<div  className="category">
+    return(<div  className="all-category">
         
         {['ВСЕ', 'БУРГЕРЫ', 'СНЭКИ', 'СОУСЫ'].
         map((category) => <Filter category={category} key={category}/>

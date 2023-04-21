@@ -6,6 +6,7 @@ import slide31 from './imgSlider/slide31.jpg'
 import slide81 from './imgSlider/slide81.jpg'
 import slide1  from './imgSlider/slide1.jpg'
 import Carousel from 'react-bootstrap/Carousel';
+import "./slider.css"
 
 function DarkVariantExample() {
   return (

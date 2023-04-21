@@ -29,6 +29,7 @@ nav{
     justify-content: flex-end;
     color: #3c2513;
     margin-top: -20px;
+    
   }
   
   
@@ -39,6 +40,11 @@ nav{
     padding-right: 30px;
     letter-spacing: -2;
   }
+  .link:hover{
+    color: white;
+    text-decoration-line: underline ;
+  }
+  
   
   .img-start{
     width: 100%;

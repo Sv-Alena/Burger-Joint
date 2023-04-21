@@ -14,7 +14,7 @@ function BuyBurger(){
                 
                     <img src={pictures} width='350px' height='330px' alt='burgers'/>
                     <div>
-                    <h1 className="name-threeBurg">{name}</h1>
+                    <h2 className="name-threeBurg">{name}</h2>
                     <p className="story-threeBurg">{aboutBurger}</p>
                     <div className="btnThreeBurg">
                     <button className=""> ЗАКАЗАТЬ</button>

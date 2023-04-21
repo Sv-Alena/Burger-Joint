@@ -1,0 +1,13 @@
+.carousel {
+  width:640px;
+  height:360px;
+}
+
+.carousel .carousel-indicators button {
+  width: 15px;
+ height: 15px;
+ border-radius: 100%;
+ 
+ 
+}
+

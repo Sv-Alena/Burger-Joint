@@ -3,23 +3,27 @@
     justify-content: center;
     margin: 30px;
     padding: 15px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.2);
     margin-top: 100px;
+  }
+
+  .infoInformation{
+    margin-top: 50px ;
   }
   .infoSale{
     font-family: 'Roboto', sans-serif;
-    font-size:20px ;
+    font-size:24px ;
     letter-spacing: -1.5px;
     font-weight: bold;
-    color: #3c2513;
+    color: #5f3a20;
   }
   
   .infoNameCombo{
     font-family: 'Roboto', sans-serif;
-    color: #3c2513;
-    font-size: 35px;
+    color: #5f3a20;
+    font-size: 40px;
     font-weight: bolder;
-    letter-spacing: -1.5px;
+    letter-spacing: -2px;
     margin-top: -15px;
   }
   

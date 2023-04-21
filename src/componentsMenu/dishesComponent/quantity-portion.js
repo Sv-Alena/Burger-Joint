@@ -1,4 +1,6 @@
-const CartBlock = ({quantity, setQuantity}) => {
+import "./dishes.css"
+
+const QuantityPortion = ({quantity, setQuantity}) => {
     const addItem = () =>{
         const newQuantity = quantity + 1;
         setQuantity(newQuantity)
@@ -10,7 +12,7 @@ const CartBlock = ({quantity, setQuantity}) => {
         setQuantity(newQuantity)
     }
 
-    return(<div className="btnCart">
+    return(<div className="quantity-portion_btn">
         <button onClick={removeItem}>-</button>
         <span>{quantity}</span>
         <button onClick={addItem}>+</button>
@@ -18,4 +20,4 @@ const CartBlock = ({quantity, setQuantity}) => {
     </div>)
 }
 
-export default CartBlock
+export default QuantityPortion

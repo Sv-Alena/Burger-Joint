@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 236)!important;
+  }
+
+  .menu-page{
+    flex-wrap: wrap;
+  }
+.wrapper{
+  display: flex;
+    flex-grow: 1;
+}
+
+.menu-page_cart{ 
+display: flex;
+justify-content: space-between;
+
+    
+  }
+  .menu-page_filter{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+  }
+
+ 
