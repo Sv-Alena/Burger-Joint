@@ -1,52 +1,48 @@
-nav{
-   background: #ffc758; 
+nav {
+  background: #ffc758;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   position: fixed;
   width: 100%;
   margin: 0;
   padding: 10px;
-  }
+}
 
-  .burger{
-    font-size: 30px;
-    letter-spacing: -2px;
-  }
-  .telephone{
-    font-size: 18;
-  }
-  
-  .logo{
+.burger p{
+  font-size: 30px;
+  letter-spacing: -2px;
+  padding: 5px;
+}
+.telephone {
+  font-size: 18;
+}
+
+.logo {
   display: flex;
   justify-content: space-between;
   color: #3c2513;
   padding: 0px 30px 0px 30px;
-  
-  }
-  .menu{
-    display: flex;
-    justify-content: flex-end;
-    color: #3c2513;
-    margin-top: -20px;
-    
-  }
-  
-  
-  .link{
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin-top: -20px;
+}
+
+.link {
   font-size: 18px;
-    text-decoration: none;
-    color: #3c2513;
-    padding-right: 30px;
-    letter-spacing: -2;
-  }
-  .link:hover{
-    color: white;
-    text-decoration-line: underline ;
-  }
-  
-  
-  .img-start{
-    width: 100%;
-  }
-  
+  text-decoration: none;
+  color: #3c2513;
+  padding-right: 30px;
+  letter-spacing: -2;
+}
+.link:hover {
+  color: #3c2513;
+  text-decoration-line: underline;
+}
+
+.img-start {
+  width: 100%;
+}

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { addItemInCart } from "../../redux/cartSlice";
 import { useDispatch } from "react-redux";
 import "./dishes.css"
+//import AddToCartFanction from "../../add-to-cart-fanction/AddToCartFancyion";
 
 const Dish = ({ dish }) => {
   const [quantity, setQuantity] = useState(1);
@@ -10,7 +11,7 @@ const Dish = ({ dish }) => {
   return (
     <div className="dish_product-card">
       <img
-        src={`./menuImage/${dish.image}.avif`}
+        src={`./menuImage/${dish.image}.jpg`}
         alt="dishes"
         className="dish_img-menu"
       />
@@ -21,6 +22,7 @@ const Dish = ({ dish }) => {
         <div className="dish_cart-block">
           <QuantityPortion quantity={quantity} setQuantity={setQuantity} />
           <img
+          //onClick={<AddToCartFanction addFanction={addFanction}/>} СДЕЛАТЬ КОМПОНЕНТ ДЛЯ ФУНКЦИИ
             onClick={() => {
               dispatch(addItemInCart({ dish, quantity }));
             }}

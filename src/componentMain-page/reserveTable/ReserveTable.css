@@ -1,65 +1,59 @@
-.reserv-body{
-background-image: url("./bodyReservTable.jpg") ;
-background-size: cover;
-background-repeat: no-repeat;
-width: 100%;
-height: 100vh;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
+.reserv-body {
+  background-image: url("./bodyReservTable.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.box-reservation{
-    text-align: center;
-    margin-top: 60px;
+.box-reservation {
+  text-align: center;
+  margin-top: 60px;
 }
 
-.reservInfo{
-    font-size:24px ;
-   
-    color: #5f3a20;
-  
-    }
-
-
-.infoNameReserve{
-    color: #5f3a20;
-    font-size: 46px;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: -1,5;
-    }
-
-    .box-input{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .box-inputReservation{
-        
-        width: 600px;
-        margin-top: 50px;
-        padding: 20px;
-       
-    }
-
-.box-inputReservation input{
-padding: 15px;
-margin: 15px;
-width: 250px;
-outline-style: none;
-color: #3c2513;
-
+.reservInfo {
+  font-size: 24px;
+  color: #5f3a20;
 }
 
-.box-inputReservation button{
-width: 260px;
-padding: 15px;
-margin: 10px;
-background-color: rgb(226, 5, 5);
-border: none;
-color: white;
-font-weight: bolder;
-font-size: 20px;
-cursor: pointer;
+.infoNameReserve {
+  color: #5f3a20;
+  font-size: 46px;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -1, 5;
+}
+
+.box-input {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box-inputReservation {
+  width: 600px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.box-inputReservation input {
+  padding: 15px;
+  margin: 15px;
+  width: 250px;
+  outline-style: none;
+  color: #3c2513;
+}
+
+.box-inputReservation button {
+  width: 260px;
+  padding: 15px;
+  margin: 10px;
+  background-color: rgb(226, 5, 5);
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
 }

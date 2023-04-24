@@ -4,6 +4,9 @@ import ReserveTable from '../../componentMain-page/reserveTable/ReserveTable'
 import Marketing from '../../componentMain-page/marketingBurger/Marketing';
 import photo from './one.jpg';
 import ButtomMenu from '../../componentMain-page/buttom-menu/buttom-menu';
+import "./home-page.css"
+import About from '../page-aboutt/About';
+
 
 
 function Home(){
@@ -16,6 +19,7 @@ function Home(){
         <BuyBurger />
         <InfoCombo />
         <ReserveTable />
+        <About />
         <ButtomMenu/> 
         </div>
     )

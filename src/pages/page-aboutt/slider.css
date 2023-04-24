@@ -1,6 +1,5 @@
 .carousel {
-  width:640px;
-  height:360px;
+  width: 100%;
 }
 
 .carousel .carousel-indicators button {

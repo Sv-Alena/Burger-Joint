@@ -1,31 +1,46 @@
-.contact_icons{
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url("../../about-page/imgSlider/slide1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 500px;
-    padding-top: 250px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
+.contact_info-icons {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../page-aboutt/imgSlider/slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact_icons {
+  width: 100%;
+  height: 500px;
+  padding-top: 250px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.box-contact h2{
-padding-top: 150px;
-text-align: center;
-font-size: 40px;
+.box-contact h2 {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 40px;
 }
 
+.text-uppercase {
+  color: white;
+  border: 1px solid rgb(77, 76, 76);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 50px;
+  text-align: center;
+  margin-top: -210px;
+}
 
-.text-uppercase{
-    color: white;
-    border: 1px solid rgb(77, 76, 76);
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    padding: 50px;
-    text-align: center;
-    margin-top: -210px;
+.contact_icons-phone-text-icon {
+  margin-top: 100px;
+  width: 250px;
+  margin-left: -70px;
+}
+
+.contact_icons-phone-text-icon svg {
+  margin-right: 10px;
+}
+
+br{
+    padding: 20px;
 }

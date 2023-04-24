@@ -10,11 +10,9 @@ const MenuPage = () => {
         <AllCategory />
       </div>
       <div className="menu-page_cart">
-        <div className="flex1 wrapper"></div>
-        <Cart />
-      </div>
-      <div className="wrapper menu-page_dishes">
-        <Dishes />
+        <div className="wrapper menu-page_dishes">
+          <Dishes />
+        </div>
       </div>
     </div>
   );

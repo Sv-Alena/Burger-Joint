@@ -1,10 +1,11 @@
 import React from "react";
-import "./App.css";
 import Contacts from "./pages/contacts-page/Contacts";
 import About from "./pages/page-aboutt/About";
 import Home from "./pages/home-page/Home";
 import MenuPage from "./pages/menu-page/MenuPage";
+import Cart from "./componentsMenu/cart/Cart";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -13,15 +14,17 @@ function App() {
     <Router>
       <nav>
         <div className="logo">
-          <p className="burger">
-            <span>
-              <img
-                src="https://cdn.onlinewebfonts.com/svg/download_485179.png"
-                width="30px"
-              />
-            </span>{" "}
-            BURGER HOUSE
-          </p>
+          <Link to="/" className="link">
+            <p className="burger">
+              <span>
+                <img
+                  src="https://cdn.onlinewebfonts.com/svg/download_485179.png"
+                  width="35px"
+                />
+              </span>{" "}
+              BURGER HOUSE
+            </p>
+          </Link>
           <p className="telephone">
             <span>
               <img
@@ -36,23 +39,20 @@ function App() {
           <Link to="/" className="link">
             ГЛАВНАЯ
           </Link>
-          <Link to="/about" className="link">
-            О НАС
-          </Link>
-          <p></p>
           <Link to="/menu" className="link">
             МЕНЮ
           </Link>
           <Link to="/contacts" className="link">
             КОНТАКТЫ
           </Link>
+          <Cart />
         </div>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
   );

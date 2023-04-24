@@ -1,14 +1,11 @@
 .cart {
- margin-right: 30px;
+  margin-right: 30px;
   align-items: center;
   position: relative;
 }
 
-.cart_icons{
+.cart_icons {
   cursor: pointer;
-
-  
-  
 }
 
 .box-cart_item {
@@ -34,7 +31,7 @@
   margin-bottom: 15 px;
 }
 
-.box-cart_btn-total-price{
+.box-cart_btn-total-price {
   background-color: #ffa513;
   color: white;
   border: none;
@@ -56,7 +53,7 @@
   align-items: center;
 }
 
-.quantity-items{
+.quantity-items {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -67,7 +64,7 @@
   justify-content: center;
   align-items: center;
   color: #ff8513;
-  
+
   z-index: 2;
   left: 15px;
   top: -10px;

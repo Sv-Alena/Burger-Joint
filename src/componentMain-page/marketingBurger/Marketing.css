@@ -1,48 +1,47 @@
-.box-market{
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-  }
-  .box-market img{
-    border-radius: 30px;
-    padding: 15px;
-  }
-  .slogan-marketing{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .btnTestyBurg{
-    background-color: #ffc758;
+.box-market {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.box-market img {
+  border-radius: 30px;
+  padding: 15px;
+}
+.slogan-marketing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnTestyBurg {
+  background-color: #ffc758;
   padding: 12px;
   border: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: -1.2px;
-  }
-  
-  .chooseEnjoy{
-    font-family: 'Roboto', sans-serif;
-    color: #3c2513;
-    letter-spacing: -1.5px;
-    font-size: 46px;
-    font-weight: bolder;
-  
-  }
-  .slogan{
-    width: 800px;
-    font-family: 'Roboto', sans-serif;
-    color: #7e5f46;
-    text-align: center;
-    font-size: 18px;
-    margin-top: -15px;
-  } 
+}
 
-  .box-button h3{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-  }
+.chooseEnjoy {
+  font-family: "Roboto", sans-serif;
+  color: #3c2513;
+  letter-spacing: -1.5px;
+  font-size: 46px;
+  font-weight: bolder;
+}
+.slogan {
+  width: 800px;
+  font-family: "Roboto", sans-serif;
+  color: #7e5f46;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -15px;
+}
+
+.box-button h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}

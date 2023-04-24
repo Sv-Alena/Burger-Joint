@@ -27,7 +27,7 @@ const Cart = () => {
       <div className="cart_box-product-list">
         {isCartMenuVisible && (
           <BoxCart 
-          //boxCart={boxCart} -Выдает ошибку и не передает пропс
+          //boxCart={boxCart} не передается пропс
           onClick={btnBuy} />
         )}
       </div>
