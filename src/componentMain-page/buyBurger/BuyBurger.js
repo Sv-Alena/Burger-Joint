@@ -1,7 +1,5 @@
-//import { useState } from "react"
 import { dataDishes } from "../../dataMenu/dataDishes";
 import "./BuyBurger.css";
-//import { dataBuyBurger } from "./dataBuyBurger"
 
 function BuyBurger() {
   const burger = dataDishes.filter((item) => item.id > 18);
@@ -13,16 +11,15 @@ function BuyBurger() {
           <div key={id} className="card-threeBurger">
             <img
               src={`./menuImage/${image}.jpg`}
-              width="350px"
-              height="330px"
               alt="burgers"
+              className="card-threeBurger_img card-threeBurger_animation "
             />
             <div>
               {}
               <h2 className="name-threeBurg">{title}</h2>
               <p className="story-threeBurg">{about}</p>
               <div className="btnThreeBurg">
-                <button className=""> ЗАКАЗАТЬ</button>
+                <button className="three-burg_buttun"> ЗАКАЗАТЬ</button>
               </div>
             </div>
           </div>

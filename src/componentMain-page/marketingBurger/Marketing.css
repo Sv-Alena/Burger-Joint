@@ -2,10 +2,23 @@
   display: flex;
   justify-content: center;
   padding: 40px;
+  
 }
 .box-market img {
   border-radius: 30px;
   padding: 15px;
+}
+.box-market_burg-one{
+  width: 650px;
+}
+.box-market_burg-two{
+  width: 550px;
+  height: 220px;
+  
+}
+.box-market_burg-three{
+  width: 550px;
+  height: 220px;
 }
 .slogan-marketing {
   display: flex;
@@ -21,8 +34,13 @@
   font-size: 20px;
   font-weight: 500;
   letter-spacing: -1.2px;
+  border-radius: 3px;
+  box-shadow: 0 -3px #fcae13 inset;
+  transition: 0.2s;
 }
-
+.btnTestyBurg:hover{
+  background-color: #fcae13;
+}
 .chooseEnjoy {
   font-family: "Roboto", sans-serif;
   color: #3c2513;
@@ -44,4 +62,19 @@
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+@media all and ( max-width: 800px) {
+  
+  
+  .box-market-two{
+   display: none;
+  }
+
+  .chooseEnjoy{
+    font-size: 37px;
+  }
+  .slogan {
+    width: 700px;
+  }
 }

@@ -16,8 +16,8 @@ function InfoCombo() {
       <div>
         <img
           src="https://mobimg.b-cdn.net/v3/fetch/7c/7c0a2c4bf27b9187c2c4ce16d3d780da.jpeg"
-          width="600px"
-          height="450px"
+          className="infoCombo-img"
+          alt="combo"
         />
       </div>
     </div>

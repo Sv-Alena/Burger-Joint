@@ -5,11 +5,12 @@ import { removeItemFromCart } from "../../redux/cartSlice";
 //import { useSelector } from "react-redux";
 
 const CartItems = ({ cartItem }) => {
-  const dishes = dataDishes.find((item) => item.id === cartItem.dishId);
-  //const product = useSelector((state) => state.cart.itemsInCart);
+   console.log(cartItem)
+  const dishes = dataDishes.find((product) => product.id === cartItem.dishId);
   const dispatch = useDispatch();
   const deleteItem = () => {
-    dispatch(removeItemFromCart({ cartItem: cartItem.id }));
+  ;
+    dispatch(removeItemFromCart({ productId: product.id }));
   };
   return (
     <div className="cart-item">
@@ -23,7 +24,9 @@ const CartItems = ({ cartItem }) => {
       </div>
 {/* сделать функцию как компонент */}
       <span>
-        <AiOutlineCloseCircle size={22} onClick={deleteItem} />
+        <AiOutlineCloseCircle
+         size={22}
+         onClick={deleteItem} />
       </span>
     </div>
   );

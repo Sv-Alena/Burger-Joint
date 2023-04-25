@@ -1,4 +1,6 @@
 import "./ReserveTable.css";
+import "../buyBurger/BuyBurger.css"
+
 
 function ReserveTable() {
   return (
@@ -13,12 +15,12 @@ function ReserveTable() {
           <input type="date" placeholder="ДАТА" required="required" />
           <input
             type="number"
-            placeholder="КОЛЛИЧЕСТВО ЛЮДЕЙ"
+            placeholder="КОЛЛИЧЕСТВО чел."
             required="required"
           />
           <input type="text" placeholder="EMAIL" required="required" />
           <input type="time" placeholder="ВРЕМЯ" required="required" />
-          <button>ЗАКАЗАТЬ СТОЛИК</button>
+          <button className="three-burg_buttun">ЗАКАЗАТЬ СТОЛИК</button>
         </form>
       </div>
     </div>

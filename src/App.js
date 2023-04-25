@@ -1,6 +1,5 @@
 import React from "react";
 import Contacts from "./pages/contacts-page/Contacts";
-import About from "./pages/page-aboutt/About";
 import Home from "./pages/home-page/Home";
 import MenuPage from "./pages/menu-page/MenuPage";
 import Cart from "./componentsMenu/cart/Cart";
@@ -12,40 +11,49 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <nav>
-        <div className="logo">
-          <Link to="/" className="link">
-            <p className="burger">
-              <span>
-                <img
-                  src="https://cdn.onlinewebfonts.com/svg/download_485179.png"
-                  width="35px"
-                />
-              </span>{" "}
-              BURGER HOUSE
-            </p>
-          </Link>
-          <p className="telephone">
+      <nav className="app-nav">
+        <div className="nav-left">
+          
+            <Link to="/" className="link link-logo">
+              <p className="burger">
+                <span>
+                  <img
+                    src="https://cdn.onlinewebfonts.com/svg/download_485179.png"
+                    width="35px"
+                  />
+                </span>{" "}
+                BURGER HOUSE
+              </p>
+            </Link>
+          </div>
+
+          <div className="nav-right">
+            <div className="nav-right_phone">
+              <p className="telephone">
+                <span>
+                  <img
+                    src="https://www.pinclipart.com/picdir/big/552-5524916_express-truck-delivery-delivery-truck-icon-png-clipart.png"
+                    width="35px"
+                  />
+                </span>{" "}
+                Экспресс Доставка +7(932)854-63-54
+              </p>
+            </div>
+          
+          <div className="nav-right_menu">
+            <Link to="/" className="link link-menu">
+              ГЛАВНАЯ
+            </Link>
+            <Link to="/menu" className="link link-menu">
+              МЕНЮ
+            </Link>
+            <Link to="/contacts" className="link link-menu">
+              КОНТАКТЫ
+            </Link>
             <span>
-              <img
-                src="https://www.pinclipart.com/picdir/big/552-5524916_express-truck-delivery-delivery-truck-icon-png-clipart.png"
-                width="35px"
-              />
-            </span>{" "}
-            Экспресс Доставка +7(932)854-63-54
-          </p>
-        </div>
-        <div className="menu">
-          <Link to="/" className="link">
-            ГЛАВНАЯ
-          </Link>
-          <Link to="/menu" className="link">
-            МЕНЮ
-          </Link>
-          <Link to="/contacts" className="link">
-            КОНТАКТЫ
-          </Link>
-          <Cart />
+            <Cart />
+            </span>
+          </div>
         </div>
       </nav>
       <Routes>

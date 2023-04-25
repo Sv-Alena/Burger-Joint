@@ -6,6 +6,7 @@
 
 .cart_icons {
   cursor: pointer;
+  position:relative ;
 }
 
 .box-cart_item {

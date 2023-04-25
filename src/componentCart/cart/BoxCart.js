@@ -3,14 +3,14 @@ import CartItems from "./cart-items";
 import { useSelector } from "react-redux";
 import { getTotalPrice } from "../../redux/cartSlice";
 
-const BoxCart = ({ boxCart }) => {
+const BoxCart = () => {
   const itemsInCart = useSelector(getCartItems);
   const totalPrice = useSelector(getTotalPrice);
-
+        
   return (
     <div className="box-cart_item">
       <div>
-        {itemsInCart.map((cartItem) => (
+      {itemsInCart.map((cartItem) => (
           <CartItems cartItem={cartItem} />
         ))}
       </div>

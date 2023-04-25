@@ -7,9 +7,9 @@ export const cartSlice = createSlice({
     },
     reducers: {
         addItemInCart: (state, action) => {
-            //const timeId = new Date().getTime()
+            const timeId = new Date().getTime()
             state.itemsInCart.push({
-                //id: timeId,
+                id: timeId,
                 
                 dishId: action.payload.dish.id,
                 quantity: action.payload.quantity,
@@ -18,7 +18,7 @@ export const cartSlice = createSlice({
         },
         removeItemFromCart: (state, action) => {
             state.itemsInCart = state.itemsInCart.filter(
-                product => product.id !== action.payload
+                product => product.id !== action.payload.cartItem
             )
         }
     }

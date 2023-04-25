@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-
-
 }
 
 .filter_categoryButtonSelected {
@@ -24,5 +22,14 @@
   border-radius: 5px;
   color: #573208;
   text-align: center;
+
+}
+
+
+@media all and ( max-width: 800px){
+
+  .filter_categoryButton {
+    width: 100px;
+  }
 
 }

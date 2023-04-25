@@ -32,3 +32,34 @@
   font-size: 18px;
   color: #6d5038;
 }
+
+.infoCombo-img{
+  width: 600px ;
+  height: 450px ;
+}
+@media all and ( max-width: 800px){
+  .infoSale{
+    font-size: 18px;
+  }
+  .infoCombo-img{
+    width: 320px ;
+  height: 280px ;
+  }
+  .infoComboText {
+    width: 300px;
+  }
+  .infoNameCombo {
+font-size: 30px;
+  }
+
+  .infoComboText{
+    font-size: 15px;
+  }
+  .infoInformation {
+    margin-top: 30px;
+  }
+  .box-infoCombo {
+    padding: 15px;
+    margin: 10px;
+  }
+}

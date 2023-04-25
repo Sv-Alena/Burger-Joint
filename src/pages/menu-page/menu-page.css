@@ -14,9 +14,8 @@ body{
 .menu-page_cart{ 
 display: flex;
 justify-content: space-between;
-
-    
   }
+  
   .menu-page_filter{
     display: flex;
     justify-content: center;

@@ -11,7 +11,8 @@ const Cart = () => {
   const btnBuy = () => {
     setIsCartMenuVisible(false);
   };
-
+  
+  
   return (
     <div className="cart">
       <div className="cart_cart-icon">
@@ -26,9 +27,7 @@ const Cart = () => {
       </div>
       <div className="cart_box-product-list">
         {isCartMenuVisible && (
-          <BoxCart 
-          //boxCart={boxCart} не передается пропс
-          onClick={btnBuy} />
+          <BoxCart onClick={btnBuy} />
         )}
       </div>
     </div>

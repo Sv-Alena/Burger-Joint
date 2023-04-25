@@ -12,6 +12,7 @@
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .box-contact h2 {
@@ -31,6 +32,9 @@
   margin-top: -210px;
 }
 
+.text-uppercase:hover{
+  border: 1px solid rgb(250, 249, 249)
+}
 .contact_icons-phone-text-icon {
   margin-top: 100px;
   width: 250px;
@@ -39,6 +43,73 @@
 
 .contact_icons-phone-text-icon svg {
   margin-right: 10px;
+}
+
+.contact_icons-animation:hover {
+  -webkit-animation: 0.1s tremor ease-out infinite;  
+  animation: 0.1s tremor ease-out infinite;    
+}
+@-webkit-keyframes tremor {
+  0%, 25% {
+      left: -15px;
+      top:-15px;
+      -webkit-transform: translateX(-24%);
+      transform: translateX(-24%);
+  }
+  50%, 100% {
+      left: 15px;
+      top: 15px;
+      -webkit-transform: translateX(4%);
+      transform: translateX(4%);
+  }
+}
+@-moz-keyframes tremor {
+  0%, 25% {
+      left: -15px;
+      -webkit-transform: translateX(-4%);
+      transform: translateX(-4%);
+  }
+  50%, 100% {
+      left: 15px;
+      -webkit-transform: translateX(4%);
+      transform: translateX(4%);
+  }
+}
+@-ms-keyframes tremor {
+  0%, 25% {
+      left: -15px;
+      -webkit-transform: translateX(-4%);
+      transform: translateX(-4%);
+  }
+  50%, 100% {
+      left: 1px;
+      -webkit-transform: translateX(4%);
+      transform: translateX(4%);
+  }
+}
+@-o-keyframes tremor {
+  0%, 25% {
+      left: -1px;
+      -webkit-transform: translateX(-4%);
+      transform: translateX(-4%);
+  }
+  50%, 100% {
+      left: 1px;
+      -webkit-transform: translateX(4%);
+      transform: translateX(4%);
+  }
+}
+@keyframes tremor {
+  0%, 25% {
+      left: -15px;
+      -webkit-transform: translateX(-4%);
+      transform: translateX(-4%);
+  }
+  50%, 100% {
+      left: 1px;
+      -webkit-transform: translateX(4%);
+      transform: translateX(4%);
+  }
 }
 
 br{

@@ -3,12 +3,20 @@
   flex-wrap: wrap;
   padding: 20px;
   font-family: "Roboto", sans-serif;
+  margin-top: 10px;
 }
 
 .card-threeBurger {
   padding: 2%;
   flex-grow: 1;
   flex-basis: 16%;
+
+}
+
+.card-threeBurger_img{
+  width: 350px;
+  height: 330px;
+  border-radius: 50px;
 }
 
 .name-threeBurg {
@@ -22,7 +30,7 @@
   color: #5f3a20;
 }
 
-.btnThreeBurg button {
+.three-burg_buttun {
   padding: 10px;
   color: white;
   text-transform: uppercase;
@@ -31,8 +39,40 @@
   font-size: 20px;
   width: 200px;
   cursor: pointer;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  text-shadow: 0 -1px 1px #777;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
 }
+
+.three-burg_buttun:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  }
 .btnThreeBurg {
   display: flex;
   justify-content: center;
+}
+
+@media all and ( max-width: 800px){
+  .card-threeBurger_img{
+    width: 190px;
+    height: 150px;
+  }
+  .name-threeBurg{
+    font-size: 20px;
+  }
+  .three-burg_buttun{
+    width: 100px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  .story-threeBurg{
+    font-size: 15px;
+  }
 }
