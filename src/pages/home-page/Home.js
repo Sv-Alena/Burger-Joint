@@ -7,12 +7,15 @@ import ButtomMenu from '../../componentMain-page/buttom-menu/buttom-menu';
 import "./home-page.css"
 import About from '../page-aboutt/About';
 
+import NaviBar from '../../componentMain-page/navibar/navBar';
 
 
 function Home(){
     return(
         <div>
+            
         <div className='img-start'>
+            
         <img src={photo} alt='fone' width='100%'/>
         </div>
         <Marketing />

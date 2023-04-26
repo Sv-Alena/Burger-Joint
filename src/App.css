@@ -5,6 +5,10 @@
   position: fixed;
   width: 100%;
 }
+.burger img{
+  width: 35px;
+}
+
 .burger p{
   font-size: 30px;
   letter-spacing: -2px;
@@ -14,12 +18,10 @@
 
 .nav-left{
   margin: 10px;
-
 }
 
 .nav-right{
   margin: 10px;
-
 }
 
 .link-menu{
@@ -33,6 +35,13 @@
   font-weight: bold;
   color: #684022;
   text-decoration: none;
+}
+
+.add-cart{
+  position: absolute;
+  position: fixed;
+  margin-left: 95%;
+  margin-top: 45px;
 }
 /* nav {
   
@@ -100,12 +109,31 @@
 
 @media all and ( max-width: 800px){
 
+  .app-nav{}
   .link-menu{
     font-size: 15px;
  }
  .link-logo{
 font-size: 18px;
- }
+ } */
+@media all and ( max-width: 800px){
 
+  .app-nav{
+    width: 720px;
+  }
 
-} */
+}
+
+@media all and ( max-width: 500px){
+  .app-nav{
+    width: 450px;
+  }
+    .burger p{
+      font-size: 10px;
+      letter-spacing: -1px;
+    } 
+    .burger img{
+      width: 25px;
+    }
+
+   }

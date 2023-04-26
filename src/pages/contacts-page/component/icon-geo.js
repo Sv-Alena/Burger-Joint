@@ -5,8 +5,6 @@ function IconGeo() {
     <div className="contact_icons-geo text-uppercase">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="75"
-        height="75"
         fill="currentColor"
         class="bi bi-geo-alt"
         viewBox="0 0 16 16"

@@ -25,7 +25,6 @@
 .bottom-menu_logo-name {
   font-size: 60px;
   font-weight: 400px;
-
   letter-spacing: -5px;
 }
 
@@ -75,3 +74,63 @@
   cursor: pointer;
   margin-right: 20px;
 }
+
+@media all and ( max-width: 800px){
+  .fon-buttom{
+    width: 800px;
+  }
+  .bottom-menu_logo {
+    width: 30px;
+    height: 35px;
+    margin: 0 10px;
+  }
+
+  .bottom-menu_logo-name {
+    font-size: 25px;
+    letter-spacing: -2px;
+  }
+  .bottom-menu_box-info-text {
+    width: 300px;
+    font-size: 18px;
+  }
+
+  .bottom-menu_box-info {
+    margin:  200px 10px ;
+  }
+
+  .bottom-menu_box-info-adres {
+    font-size: 15px;
+    margin-right: 10px;
+    }
+
+    .bottom-menu_box-social {
+  margin: 220px 0;
+    }
+    .bottom-menu_box-box-social-network {
+      margin-right: 10px;
+     
+    }
+    .bottom-menu_box-social-star-text{
+       width: 350px;
+       font-size: 13px;
+    }
+  }
+@media all and ( max-width: 500px){
+  .fon-buttom{
+    width: 450px;
+  }
+  .bottom-menu_box-info {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0;
+  }
+  .bottom-menu_box-info-contacts {
+    margin-left: 80px;
+    }
+
+    .bottom-menu_box-social {
+      display: flex;
+    flex-direction: column;
+        }
+}
+

@@ -1,7 +1,7 @@
 import { dataDishes } from "../../dataMenu/dataDishes";
 import "./BuyBurger.css";
 
-function BuyBurger() {
+function BuyBurger({dish, quantity}) {
   const burger = dataDishes.filter((item) => item.id > 18);
   return (
     <div className="box-threeBurger">

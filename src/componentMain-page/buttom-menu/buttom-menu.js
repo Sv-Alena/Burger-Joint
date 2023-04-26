@@ -6,7 +6,6 @@ import { SlSocialTwitter } from "react-icons/sl";
 import { SlSocialVkontakte } from "react-icons/sl";
 import "./buttom-menu.css";
 
-//import Footer from "./futer"
 
 const ButtomMenu = () => {
   return (

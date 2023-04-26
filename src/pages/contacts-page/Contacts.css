@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .contact_icons {
   width: 100%;
   height: 500px;
@@ -19,6 +20,11 @@
   padding-top: 150px;
   text-align: center;
   font-size: 40px;
+}
+
+.contact_icons-animation{
+  width: 75px;
+  height: 75px;
 }
 
 .text-uppercase {
@@ -114,4 +120,20 @@
 
 br{
     padding: 20px;
+}
+
+@media all and ( max-width: 800px){
+  .contact_icons-animation{
+  width: 55px;
+  height: 55px;
+}
+.text-uppercase{
+  width: 150px;
+  height: 150px;
+}
+.contact_icons-phone-text-icon{
+  width: 150px;
+  margin-left: -50px;
+  font-size: 13px;
+}
 }

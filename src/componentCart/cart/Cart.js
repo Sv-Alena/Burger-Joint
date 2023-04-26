@@ -19,7 +19,6 @@ const Cart = () => {
         <QuantityItemsInCart quantityItems={product.length} />
         <img
           src={bag}
-          width="35px"
           alt="basket"
           className="cart_icons"
           onClick={() => setIsCartMenuVisible(!isCartMenuVisible)}

@@ -1,25 +1,17 @@
-.cart {
- margin-right: 30px;
-  align-items: center;
-  position: relative;
-}
 
 .cart_icons{
   cursor: pointer;
-
-  
-  
+ 
 }
 
 .box-cart_item {
   top: 34px;
-  left: -300px;
   background-color: white;
   width: 400px;
   padding: 10px 20px;
-  z-index: 2;
   border-radius: 15px;
   color: black;
+ z-index: 12;
 }
 
 .box-cart_item-price {
@@ -29,8 +21,7 @@
 }
 
 .box-cart_btn-total-price {
-  display: flex;
-  justify-content: space-between;
+  
   margin-bottom: 15 px;
 }
 

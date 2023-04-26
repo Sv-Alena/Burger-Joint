@@ -5,8 +5,6 @@ function IconParking() {
     <div className="contact_icons-parking text-uppercase">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="75"
-        height="75"
         fill="currentColor"
         class="bi bi-p-square"
         viewBox="0 0 16 16"

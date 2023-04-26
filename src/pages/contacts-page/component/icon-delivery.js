@@ -5,8 +5,6 @@ function IconDelivery() {
     <div className="contact_icons-dilevery text-uppercase">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="75"
-        height="75"
         fill="currentColor"
         class="bi bi-car-front-fill"
         viewBox="0 0 16 16"

@@ -5,21 +5,21 @@ import MenuPage from "./pages/menu-page/MenuPage";
 import Cart from "./componentsMenu/cart/Cart";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <Router>
-      <nav className="app-nav">
+    
+function App(){
+  return(
+    <div>
+  <Router>
+     <nav className="app-nav" collapseOnSelect expand-lg>
         <div className="nav-left">
           
             <Link to="/" className="link link-logo">
               <p className="burger">
                 <span>
-                  <img
+                  <img 
                     src="https://cdn.onlinewebfonts.com/svg/download_485179.png"
-                    width="35px"
                   />
                 </span>{" "}
                 BURGER HOUSE
@@ -50,12 +50,13 @@ function App() {
             <Link to="/contacts" className="link link-menu">
               КОНТАКТЫ
             </Link>
-            <span>
-            <Cart />
-            </span>
+          
           </div>
         </div>
       </nav>
+      <div className="add-cart">
+      <Cart />
+      </div> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<MenuPage />} />
@@ -63,7 +64,11 @@ function App() {
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
-  );
+    </div>
+  ); 
+   
+            
 }
 
 export default App;
+

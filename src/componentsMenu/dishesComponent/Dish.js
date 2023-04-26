@@ -6,8 +6,10 @@ import "./dishes.css"
 //import AddToCartFanction from "../../add-to-cart-fanction/AddToCartFancyion";
 
 const Dish = ({ dish }) => {
+ 
   const [quantity, setQuantity] = useState(1);
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); 
+  
   return (
     <div className="dish_product-card">
       <img

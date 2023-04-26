@@ -63,3 +63,11 @@ font-size: 30px;
     margin: 10px;
   }
 }
+
+@media all and ( max-width: 500px){
+  .box-infoCombo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
