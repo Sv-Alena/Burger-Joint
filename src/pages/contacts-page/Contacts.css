@@ -1,33 +1,28 @@
-.contact_info-icons {
+ .contact_info-icons {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url("../page-aboutt/imgSlider/slide1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 50px;
 }
 
 .contact_icons {
   width: 100%;
   height: 500px;
-  padding-top: 250px;
+  padding-top: 50px;
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .box-contact h2 {
-  padding-top: 150px;
+  padding-top: 130px;
   text-align: center;
   font-size: 40px;
 }
 
-.contact_icons-animation{
-  width: 75px;
-  height: 75px;
-}
-
-.text-uppercase {
+ .contact_icons-box {
   color: white;
   border: 1px solid rgb(77, 76, 76);
   width: 200px;
@@ -35,22 +30,23 @@
   border-radius: 100%;
   padding: 50px;
   text-align: center;
-  margin-top: -210px;
 }
-
-.text-uppercase:hover{
+ .contact_icons-box:hover{
   border: 1px solid rgb(250, 249, 249)
 }
-.contact_icons-phone-text-icon {
-  margin-top: 100px;
-  width: 250px;
-  margin-left: -70px;
+
+.contact_icons-animation{
+  width: 75px;
+  height: 75px;
 }
 
-.contact_icons-phone-text-icon svg {
-  margin-right: 10px;
+.contact_icons-text-icon{
+  margin-top: 30px;
+  width: 220px;
+  text-align: center;
+  flex-wrap: wrap;
 }
-
+ 
 .contact_icons-animation:hover {
   -webkit-animation: 0.1s tremor ease-out infinite;  
   animation: 0.1s tremor ease-out infinite;    
@@ -124,16 +120,41 @@ br{
 
 @media all and ( max-width: 800px){
   .contact_icons-animation{
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
 }
-.text-uppercase{
+.contact_icons-box{
   width: 150px;
   height: 150px;
+  padding: 40px;
 }
-.contact_icons-phone-text-icon{
-  width: 150px;
-  margin-left: -50px;
+
+.contact_icons-text-icon{
+  width: 180px;
   font-size: 13px;
 }
 }
+@media all and ( max-width: 500px){
+  .contact_icons{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_icons-animation{
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact_icons-box{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+  }
+
+  .contact_icons-text-icon{
+    font-size: 11px;
+    margin-top: 10px;
+    line-height: 10px;
+    width: 200px;
+  }
+}  

@@ -1,0 +1,12 @@
+.contact_icons-dilevery{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+@media all and (max-width: 500px){
+    .contact_icons-dilevery{
+        display: flex;
+        flex-direction: row;
+      }
+  } 

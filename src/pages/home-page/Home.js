@@ -18,11 +18,12 @@ function Home(){
             
         <img src={photo} alt='fone' width='100%'/>
         </div>
+        <About />
         <Marketing />
         <BuyBurger />
         <InfoCombo />
         <ReserveTable />
-        <About />
+        
         <ButtomMenu/> 
         </div>
     )

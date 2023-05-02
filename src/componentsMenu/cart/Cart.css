@@ -6,12 +6,15 @@
 
 .box-cart_item {
   top: 34px;
-  background-color: white;
+  background-color: #fff;
   width: 400px;
   padding: 10px 20px;
   border-radius: 15px;
   color: black;
  z-index: 12;
+ margin-left: -380px;
+ border: 2px solid #ffa513;
+ 
 }
 
 .box-cart_item-price {

@@ -6,9 +6,6 @@ function About() {
   return (
     <div className="about-page">
       <div className="about-page_box-slider">
-        <div className="about-page_slider">
-          <DarkVariantExample />
-        </div>
         <div className="about-page_text">
           <h2>МЫ - BURGER HOUSE</h2>
           <p>
@@ -21,6 +18,10 @@ function About() {
             сайте или позвонив нам по телефону.
           </p>
         </div>
+        <div className="about-page_slider">
+          <DarkVariantExample />
+        </div>
+        
       </div>
     </div>
   );
