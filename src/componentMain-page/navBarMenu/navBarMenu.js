@@ -56,7 +56,7 @@ const NavBarMenu = () => {
                 width="35px"
               />
             </span>{" "}
-            Экспресс Доставка +7(932)854-63-54
+            <span className="phone-text">Экспресс Доставка</span> +7(932)854-63-54
           </p>
         </div>
       </div>
