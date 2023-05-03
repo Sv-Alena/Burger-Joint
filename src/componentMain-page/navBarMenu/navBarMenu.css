@@ -137,19 +137,19 @@
       }
       .telephone{
         margin: -5px 0px;
-        font-size: 18px;
+        font-size: 16px;
       }
       .telephone img{
       display: none;
     }
 
     .main-nav .menubar__button{
-      margin: -10px 75px;
+      margin: -12px 55px;
       padding: 2px;
     }
   
     .cart{
-      margin-left: 71%;
-      margin-top: -8px;
+      margin-left: 75%;
+      margin-top: -12px;
     }
   }
