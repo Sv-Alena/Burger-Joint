@@ -124,20 +124,20 @@
   
   @media(max-width:500px){
     .boxMenu{
-        width: 500px;
+        width: 450px;
     }
     .menu-header_logo{
         margin: 0;
     }
     .menu-header_logo h2{
-        font-size: 13px;
+        font-size: 20px;
       }
       .menu-header_logo img{
         display: none;
       }
       .telephone{
         margin: -5px 0px;
-        font-size: 15px;
+        font-size: 18px;
       }
       .telephone img{
       display: none;
