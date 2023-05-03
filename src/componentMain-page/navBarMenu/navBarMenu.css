@@ -124,7 +124,7 @@
   
   @media(max-width:500px){
     .boxMenu{
-        width: 450px;
+        width:100%;
     }
     .menu-header_logo{
         margin: 0;
