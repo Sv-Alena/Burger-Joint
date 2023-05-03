@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Cart from "../../componentsMenu/cart/Cart";
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import "./navBarMenu.css";
@@ -91,47 +91,12 @@ const NavBarMenu = () => {
               onClick={toggleSubmenu}
               className="menu-item sub__menus__arrows"
             >
-              {" "}
               <Link to="/">
-                {" "}
-                Главная <FiChevronDown />{" "}
+                Главная 
               </Link>
-              <ul className={boxClassSubMenu.join(" ")}>
-                <li>
-                  {" "}
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active item-main-page"
-                    to={`/About`}
-                  >
-                    {" "}
-                    О нас{" "}
-                  </NavLink>{" "}
-                </li>
-                <li>
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active item-main-page"
-                    to={`/BuyBurger`}
-                  >
-                    {" "}
-                    Новинки{" "}
-                  </NavLink>{" "}
-                </li>
-                <li>
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active item-main-page"
-                    to={`/ReserveTable`}
-                  >
-                    {" "}
-                    Бронирование{" "}
-                  </NavLink>{" "}
-                </li>
-              </ul>
-            </li>
+            </li> 
             <li className="menu-item">
-              <NavLink
+              <Link
                 exact
                 activeClassName="is-active"
                 onClick={toggleClass}
@@ -139,21 +104,17 @@ const NavBarMenu = () => {
               >
                 {" "}
                 Меню{" "}
-              </NavLink>
+              </Link>
             </li>
             <li className="menu-item ">
-              <NavLink
+              <Link
                 onClick={toggleClass}
                 activeClassName="is-active"
                 to={`/Contacts`}
               >
                 {" "}
                 Контакты{" "}
-              </NavLink>{" "}
-            </li>
-
-            <li>
-              <NavLink to={`/Contacts`}></NavLink>
+              </Link>{" "}
             </li>
           </ul>
         </nav>

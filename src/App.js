@@ -19,9 +19,9 @@ function App(){
     < NavBarMenu/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<About />} />
-        <Route path="/" element={<BuyBurger />} />
-        <Route path="/" element={<ReserveTable />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/buyBurger" element={<BuyBurger />} />
+        <Route path="/reserveTable" element={<ReserveTable />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/cart" element={<Cart />} />
