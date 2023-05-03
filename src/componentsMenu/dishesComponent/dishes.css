@@ -78,5 +78,17 @@
 
 .basket {
   margin-top: -5px;
-  
+}
+
+@media all and ( max-width: 500px){
+  .dish_product-card{
+    width: 160px
+  }
+
+  .dish_img-menu {
+    width: 140px;
+  }
+  .dish_about{
+    height: 140px;
+  }
 }
