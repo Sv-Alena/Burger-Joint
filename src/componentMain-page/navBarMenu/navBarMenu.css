@@ -139,9 +139,9 @@
         margin: -5px 0px;
         font-size: 16px;
       }
-      .telephone img{
-      display: none;
-    }
+     .phone-text{
+        display: none;
+      }
 
     .main-nav .menubar__button{
       margin: -12px 45px;
