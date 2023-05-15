@@ -48,7 +48,7 @@ const NavBarMenu = () => {
             </h2>
           </Link>
         </div>
-        <div>
+        <div className="delivery">
           <p className="telephone">
             <span>
               <img
