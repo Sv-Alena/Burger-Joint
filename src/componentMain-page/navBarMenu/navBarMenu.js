@@ -48,16 +48,13 @@ const NavBarMenu = () => {
             </h2>
           </Link>
         </div>
-        <div className="delivery">
-          <p className="telephone">
-            <span>
+         <div className="delivery">
               <img
                 src="https://www.pinclipart.com/picdir/big/552-5524916_express-truck-delivery-delivery-truck-icon-png-clipart.png"
-                width="35px"
+                className="phone-icon"
               />
-            </span>{" "}
-            <span className="phone-text">Экспресс Доставка</span> +7(932)854-63-54
-          </p>
+          <p className="phone-text">Экспресс Доставка</p>
+          <p className="telephone"> +7(932)854-63-54</p>
         </div>
       </div>
       <div className="menu-header_link">
