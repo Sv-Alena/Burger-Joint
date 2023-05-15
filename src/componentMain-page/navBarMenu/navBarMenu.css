@@ -9,17 +9,20 @@
     justify-content: space-between;
     margin: 8px 10px;
   }
- .delivery{
-     display: flex;
-   }
+  .delivery{
+    display: flex;
+ }
   .telephone{
-    margin-top: 10px;
     font-size: 18px;
   }
-  .telephone img{
-     width:30px;
+  .phone-icon{
+    width: 33px;
+    height: 28px;
+  }
+   .phone-text{
+     padding: 0 5px 0 5px;
+     font-size: 18px;
     }
-
   @-webkit-keyframes pulsate {
     50% { color: rgb(59, 39, 2); text-shadow: 0 -1px rgba(250, 250, 238, 0.3), 0 0 5px rgb(254, 254, 63), 0 0 8px rgb(46, 42, 42); }
    }
@@ -38,7 +41,7 @@
     display: inline-block;
     position: absolute;
     margin-left: 95% ;
-  margin-top: -29px;
+    margin-top: -29px;
   }
 
   ul.main-menu {
