@@ -142,6 +142,7 @@
       }
       .telephone img{
           display: block;
+          margin-right:200px ;
       }
      .phone-text{
         display: none;
