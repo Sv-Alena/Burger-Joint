@@ -81,16 +81,21 @@
 }
 
 @media all and ( max-width: 500px){
-  .dish_product-card{
-    width: 200px;
+  .dishes_product-menu {
+  display: flex;
   }
-.dish_product-card{
-  margin-left: 8px;
+  .dish_product-card{
+    width: 200px; 
+    margin-left: 8px;
   }
   .dish_img-menu {
     width: 180px;
   }
   .dish_about{
-    height: 150px;
+    height: 170px;
   }
+  .about-product {
+  margin-top: -5px;
+  height: 50px;
+}
 }
