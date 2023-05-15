@@ -140,6 +140,8 @@
         margin: -5px 0px;
         font-size: 16px;
       }
+      .telephone img{
+          display: block;
      .phone-text{
         display: none;
       }
