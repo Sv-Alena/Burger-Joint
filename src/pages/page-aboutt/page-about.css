@@ -30,3 +30,13 @@
 .about-page_buttom-menu {
   padding: 10px;
 }
+
+@media all and ( max-width: 500px){
+.about-page_text {
+  padding-top: 50px;
+}
+
+.about-page_text h2 {
+  font-size: 35px;
+}
+}
