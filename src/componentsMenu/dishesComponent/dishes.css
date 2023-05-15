@@ -1,6 +1,7 @@
 .dishes_product-menu {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .dish_product-card {
