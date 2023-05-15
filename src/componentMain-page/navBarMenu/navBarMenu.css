@@ -125,10 +125,10 @@
   @media(max-width:500px){
     .boxMenu{
         width: 590px;
-        height: 65px;
+        height: 75px;
     }
     .menu-header_logo{
-        margin: 0;
+        margin-left: 5px;
     }
     .menu-header_logo h2{
         font-size: 20px;
@@ -145,12 +145,12 @@
       }
 
     .main-nav .menubar__button{
-      margin: -12px 25px;
+      margin: -10px 25px;
       padding: 2px;
     }
   
     .cart{
-      margin-left: 75%;
-      margin-top: -12px;
+      margin-left: 65%;
+      margin-top: -10px;
     }
   }
