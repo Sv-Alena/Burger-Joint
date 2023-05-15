@@ -82,13 +82,13 @@
 
 @media all and ( max-width: 500px){
   .dish_product-card{
-    width: 140px;
+    width: 200px;
   }
 
   .dish_img-menu {
-    width: 120px;
+    width: 180px;
   }
   .dish_about{
-    height: 130px;
+    height: 150px;
   }
 }
