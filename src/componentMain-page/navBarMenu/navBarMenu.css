@@ -21,6 +21,9 @@
    @keyframes pulsate {
     50% { color: rgb(59, 39, 2); text-shadow: 0 -1px rgba(253, 253, 238, 0.3), 0 0 5px rgb(246, 246, 65), 0 0 8px rgb(127, 134, 57); }
    }
+   .delivery{
+     display: flex;
+   }
    .telephone {
      color: rgb(157, 155, 155);
      text-shadow: 0 -1px rgba(206, 204, 204, 0.1);
@@ -142,7 +145,6 @@
       }
       .telephone img{
           display: block;
-          margin-right:200px ;
       }
      .phone-text{
         display: none;
