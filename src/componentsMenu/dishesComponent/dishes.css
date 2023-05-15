@@ -84,10 +84,9 @@
 @media all and ( max-width: 500px){
   .dishes_product-menu {
     display: flex;
-    width: 100%;
   }
   .dish_product-card{
-    width: 200px; 
+    width: 190px; 
     margin-left: 8px;
     margin: 5px;
     padding: 5px;
