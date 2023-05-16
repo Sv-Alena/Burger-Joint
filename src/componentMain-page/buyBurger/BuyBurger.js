@@ -21,7 +21,7 @@ function BuyBurger() {
               <h2 className="name-threeBurg">{title}</h2>
               <p className="story-threeBurg">{about}</p>
               <div className="btnThreeBurg">
-                <button className="three-burg_buttun" onClick={()=> navigate('../../pages/menu-page/MenuPage')}> ЗАКАЗАТЬ</button>
+                <button className="three-burg_buttun"><a href="/menu">ЗАКАЗАТЬ</a></button>
               </div>
             </div>
           </div>

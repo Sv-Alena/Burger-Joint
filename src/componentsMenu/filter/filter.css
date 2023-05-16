@@ -33,3 +33,12 @@
   }
 
 }
+@media all and ( max-width: 500px){
+  .all-category {
+    display: flex;
+    padding: 5px;
+  }
+  .filter_categoryButton{
+    margin-left: 5px;
+  }
+}
