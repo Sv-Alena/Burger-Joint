@@ -40,5 +40,6 @@
   }
   .filter_categoryButton{
     margin-left: 5px;
+    width: 90px;
   }
 }
