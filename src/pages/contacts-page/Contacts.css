@@ -135,6 +135,9 @@ br{
 }
 }
 @media all and ( max-width: 500px){
+  .contact_info-icons {
+width: 100%;
+  }
   .contact_icons{
     display: flex;
     flex-direction: column;
