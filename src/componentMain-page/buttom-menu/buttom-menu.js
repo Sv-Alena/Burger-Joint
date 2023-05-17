@@ -37,12 +37,6 @@ const ButtomMenu = () => {
           </div>
         </div>
         <div className="bottom-menu_box-social">
-          <div className="bottom-menu_box-social-star">
-            <p className="bottom-menu_box-social-star-text">
-              * Все фото и названия взяты из открытых источников, в рамках
-              учебного проекта.
-            </p>
-          </div>
           <div className="bottom-menu_box-box-social-network">
             <SlSocialInstagram
               className="bottom-menu_box-box-social-icons"
@@ -56,6 +50,12 @@ const ButtomMenu = () => {
               className="bottom-menu_box-box-social-icons"
               size={25}
             />
+          </div>
+          <div className="bottom-menu_box-social-star">
+            <p className="bottom-menu_box-social-star-text">
+              * Все фото и названия взяты из открытых источников, в рамках
+              учебного проекта.
+            </p>
           </div>
         </div>
       </div>
