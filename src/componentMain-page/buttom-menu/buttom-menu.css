@@ -117,7 +117,7 @@
   }
 @media all and ( max-width: 500px){
   .fon-buttom{
-    width: 450px;
+    width: 100%;
   }
   .bottom-menu_box-info {
     display: flex;
@@ -125,7 +125,7 @@
     margin: 120px 0;
   }
   .bottom-menu_box-info-contacts {
-    margin-left: 80px;
+    margin-left: 90px;
     }
 
     .bottom-menu_box-social {
