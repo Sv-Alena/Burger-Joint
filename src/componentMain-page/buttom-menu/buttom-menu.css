@@ -121,7 +121,7 @@
   }
 
   .bottom-menu_box-social-star-text{
-   margin-top: 40px;
+  margin-top: 40px;
  }
   .bottom-menu_box-info {
     display: flex;
@@ -132,9 +132,10 @@
     margin-left: 90px;
     }
 
-    .bottom-menu_box-social {
-      display: flex;
+  .bottom-menu_box-social {
+    display: flex;
     flex-direction: column;
-        }
+    margin-top: 30px;
+  }
 }
 
