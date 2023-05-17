@@ -119,6 +119,10 @@
   .fon-buttom{
     width: 100%;
   }
+
+  .bottom-menu_box-social-star-text{
+   margin-top: 40px;
+ }
   .bottom-menu_box-info {
     display: flex;
     flex-direction: column;
